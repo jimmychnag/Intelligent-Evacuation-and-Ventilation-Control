@@ -1,0 +1,41 @@
+C51 COMPILER V9.51   UART                                                                  06/28/2025 16:18:59 PAGE 1   
+
+
+C51 COMPILER V9.51, COMPILATION OF MODULE UART
+OBJECT MODULE PLACED IN Uart.obj
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE Hardware\Uart.c BROWSE INCDIR(.\Hardware;.\Library;.\System;.\User) DEBUG O
+                    -BJECTEXTEND PRINT(.\Uart.lst) TABS(2) OBJECT(Uart.obj)
+
+line level    source
+
+   1          #include <REGX51.H>
+   2          
+   3          
+   4          void UART_Init(void) {
+   5   1          TMOD |= 0x20; // Timer1 模式 2 (自動重載)
+   6   1          TH1 = 243; // 波特率 4800 
+   7   1          PCON = 0x80;
+   8   1          TR1 = 1; // 啟動 Timer1
+   9   1          SCON = 0x40;
+  10   1      }
+  11          void UART_Transmit(unsigned char data_) {
+  12   1        
+  13   1          SBUF = data_; // 載入 UART 資料寄存器
+  14   1          while (TI == 0); // 等待傳送完成
+  15   1          TI = 0; // 清除傳送標誌
+  16   1        
+  17   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     23    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

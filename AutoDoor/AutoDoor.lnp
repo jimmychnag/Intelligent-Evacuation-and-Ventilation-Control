@@ -1,0 +1,12 @@
+"STARTUP.obj",
+"Delay.obj",
+"DS18B20.obj",
+"OneWire.obj",
+"I2C_8051.obj",
+"INT.obj",
+"LCD1602.obj",
+"Timer0_Servo.obj",
+"Uart.obj",
+"AutoDoor.obj" 
+TO "AutoDoor" 
+RAMSIZE(256) 
