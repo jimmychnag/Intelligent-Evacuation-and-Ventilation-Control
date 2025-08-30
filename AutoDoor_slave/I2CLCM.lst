@@ -1,0 +1,25 @@
+C51 COMPILER V9.51   I2CLCM                                                                02/15/2025 19:28:28 PAGE 1   
+
+
+C51 COMPILER V9.51, COMPILATION OF MODULE I2CLCM
+OBJECT MODULE PLACED IN I2CLCM.obj
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE Hardware\I2CLCM.c BROWSE DEBUG OBJECTEXTEND PRINT(.\I2CLCM.lst) TABS(2) OBJ
+                    -ECT(I2CLCM.obj)
+
+line level    source
+
+   1          #include <REGX51.H>
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =   ----    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,24 @@
+C51 COMPILER V9.51   SERVO                                                                 02/15/2025 19:41:47 PAGE 1   
+
+
+C51 COMPILER V9.51, COMPILATION OF MODULE SERVO
+OBJECT MODULE PLACED IN Servo.obj
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE Hardware\Servo.c BROWSE INCDIR(.\Hardware;.\Library;.\System;.\User) DEBUG 
+                    -OBJECTEXTEND PRINT(.\Servo.lst) TABS(2) OBJECT(Servo.obj)
+
+line level    source
+
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =   ----    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
